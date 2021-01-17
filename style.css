@@ -1,0 +1,33 @@
+#container {
+display: flex;
+flex-flow: row wrap;
+margin: 100px auto;
+justify-content: center;
+}
+
+.card {
+margin-left: 20px;
+margin-bottom: 20px;
+}
+
+.card-img {
+  width:  400px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.card-info{
+  margin-top: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.property-price{
+  font-weight: bold;
+}
+
+nav{
+  margin-left: 13%;
+  font-family: 'Open Sans', sans-serif;
+  color: #fc4261;
+}
